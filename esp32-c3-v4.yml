@@ -31,6 +31,6 @@ interval:
     then:
       - output.turn_on: oranjeLED
       - output.turn_off: greenLED
-      - delay: 250ms
+      - delay: 2500ms
       - output.turn_off: oranjeLED
       - output.turn_on: greenLED
