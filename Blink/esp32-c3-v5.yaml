@@ -38,7 +38,7 @@ number:
     optimistic: true
     restore_value: true
     min_value: 100
-    max_value: 5000
+    max_value: 2500
     step: 100
     unit_of_measurement: "ms"
     
