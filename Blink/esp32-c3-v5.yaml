@@ -44,17 +44,7 @@ output:
       mode: output
     id: oranjeLED
 
-# Example sensor configuration
-name: blinking time
-unit_of_measurement: "s"
-icon: "mdi:clock"
-device_class: "time"
-state_class: "measurement"
-accuracy_decimals: 1
-filters:
-  - sliding_window_moving_average:
-      window_size: 15
-      send_every: 15
+
 
 interval:
   - interval: 1000ms
