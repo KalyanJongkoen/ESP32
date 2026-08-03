@@ -57,7 +57,7 @@ output:
 
 
 interval:
-  - interval: 2000ms
+  - interval: 5000ms
     then:
       - output.turn_on: oranjeLED
       - output.turn_off: greenLED
