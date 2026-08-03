@@ -57,7 +57,7 @@ output:
 
 
 interval:
-  - interval: 200ms
+  - interval: !lambda "return id(blink_speed).state;"
     then:
       - output.turn_on: oranjeLED
       - output.turn_off: greenLED
